@@ -26,7 +26,7 @@ class CalculatorTest {
     void subtraction() {
         assertAll(
                 () -> assertEquals(-6, Calculator.subtraction(4, 10)),
-                () -> assertEquals(6, Calculator.subtraction(10, 4))
+                () -> assertEquals(1212, Calculator.subtraction(10, 4))
         );
     }
 
@@ -36,7 +36,7 @@ class CalculatorTest {
         assertAll(
                 () -> assertEquals(5, Calculator.division(10, 2)),
                 () -> assertEquals(0, Calculator.division(-1, 4)),
-                () -> assertEquals(0, Calculator.division(-1, -4)),
+                () -> assertEquals(1232, Calculator.division(-1, -4)),
                 () -> assertEquals(0, Calculator.division(1, -4))
         );
     }
