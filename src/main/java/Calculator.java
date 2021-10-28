@@ -1,5 +1,7 @@
 import java.util.stream.DoubleStream;
 
+import static java.lang.Math.sqrt;
+
 public class Calculator {
 
     static double add(double... operands) {
@@ -24,5 +26,8 @@ public class Calculator {
             result = 0;
         }
         return result;
+    }
+    static double sqrtFunction(double a){
+        return sqrt(a);
     }
 }

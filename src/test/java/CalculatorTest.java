@@ -40,4 +40,10 @@ class CalculatorTest {
                 () -> assertEquals(0, Calculator.division(1, -4))
         );
     }
+
+    @Test
+    @DisplayName("Square root of number")
+    void sqrtFunction() {
+        assertEquals(2, Calculator.sqrtFunction(4));
+    }
 }
