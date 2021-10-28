@@ -15,4 +15,14 @@ public class Calculator {
     static double subtraction(double a, double b) {
         return a - b;
     }
+
+    static double division(double a, double b) {
+        double result = 0.0;
+        if (a > 0 && b > 0) {
+            result = a / b;
+        } else {
+            result = 0;
+        }
+        return result;
+    }
 }
