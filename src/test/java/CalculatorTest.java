@@ -36,7 +36,7 @@ class CalculatorTest {
         assertAll(
                 () -> assertEquals(5, Calculator.division(10, 2)),
                 () -> assertEquals(0, Calculator.division(-1, 4)),
-                () -> assertEquals(10, Calculator.division(-1, -4)),
+                () -> assertEquals(0, Calculator.division(-1, -4)),
                 () -> assertEquals(0, Calculator.division(1, -4))
         );
     }
