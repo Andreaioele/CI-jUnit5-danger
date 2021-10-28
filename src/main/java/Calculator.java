@@ -11,4 +11,8 @@ public class Calculator {
         return DoubleStream.of(operands)
                 .reduce(1, (a, b) -> a * b);
     }
+
+    static double subtraction(double a, double b) {
+        return a - b;
+    }
 }

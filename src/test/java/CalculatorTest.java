@@ -20,4 +20,13 @@ class CalculatorTest {
                 () -> assertEquals(0, Calculator.multiply(0,5))
         );
     }
+
+    @Test
+    @DisplayName("Subtract two numbers")
+    void subtraction() {
+        assertAll(
+                () -> assertEquals(-6, Calculator.subtraction(4,10)),
+                () -> assertEquals(6, Calculator.subtraction(10,4))
+        );
+    }
 }
